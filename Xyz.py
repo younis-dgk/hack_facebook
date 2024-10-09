@@ -1,9 +1,9 @@
-import os,re,sys,platform
-os.system('git pull')
-bit = platform.architecture()[0]
-if bit == '64bit':
-    from Jordan import XYZ
-    XYZ()
-elif bit == '32bit':
-    print(f"\033[1;91m Sorry 32Bit Not Supported .... ");exit() 
- 
+import os
+os.system("clear")
+x='\033[0;97mThis Tool has been Temporary Closed\nPlease Wait For Next Update'
+y='Authorized by : Muhammad Younis'
+z='For More About Author : https://bio.link/younis_dgk'
+print(x)
+print(y)
+print(z)
+exit()
